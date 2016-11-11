@@ -6,6 +6,5 @@
 numbers = [100 * i + 10 * j + k
            for i in [1, 2, 3, 4] for j in [1, 2, 3, 4] for k in [1, 2, 3, 4]
            if i != j and j != k and k != i]
-print "Total:", len(numbers)
-for number in numbers:
-    print (number)
+count = len(numbers)
+print count, numbers
