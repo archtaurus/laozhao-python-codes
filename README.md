@@ -2,13 +2,6 @@
 
     赠予正在努力学习Python的同学！
 
-## 联络老赵
-- QQ群： 200929675
-- 新浪微博： @老赵爱编程
-- 老赵邮箱： [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
-- 官方网站： [http://pythonchallenge.club](http://pythonchallenge.club)
-- 优酷频道： [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
-
 ## 代码目录
 - [pycode0x0000.py : Hello, Python!](src/pycode0x0000.py)
 - [pycode0x0001.py : 数字1、2、3、4能组成多少个无重复数字的三位数？](src/pycode0x0001.py)
@@ -25,3 +18,10 @@
 - [pycode0x000C.py : 求24点算式](src/pycode0x000C.py)
 - [pycode0x000D.py : 求Python之禅中字符的出现频率(百分率，不区分大小写字母)](src/pycode0x000D.py)
 - [pycode0x000E.py : 谁是罪犯？](src/pycode0x000E.py)
+
+## 联络老赵
+- QQ群： 200929675
+- 新浪微博： @老赵爱编程
+- 老赵邮箱： [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
+- 官方网站： [http://pythonchallenge.club](http://pythonchallenge.club)
+- 优酷频道： [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
