@@ -24,3 +24,4 @@
 - [pycode0x000B.py : 公元年份的干支纪年](src/pycode0x000B.py)
 - [pycode0x000C.py : 求24点算式](src/pycode0x000C.py)
 - [pycode0x000D.py : 求Python之禅中字符的出现频率(百分率，不区分大小写字母)](src/pycode0x000D.py)
+- [pycode0x000E.py : 谁是罪犯？](src/pycode0x000E.py)
