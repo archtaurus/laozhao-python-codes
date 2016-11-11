@@ -4,9 +4,10 @@
 
 ## 联络老赵
 - QQ群： 200929675
-- 官方网站：   [http://pythonchallenge.club](http://pythonchallenge.club)
-- 老赵邮箱：   [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
-- 新浪微博：   @老赵爱编程
+- 新浪微博： @老赵爱编程
+- 老赵邮箱： [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
+- 官方网站： [http://pythonchallenge.club](http://pythonchallenge.club)
+- 优酷频道： [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
 
 ## 代码目录
 - [pycode0x0000.py : Hello, Python!](src/pycode0x0000.py)
