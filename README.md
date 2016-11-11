@@ -1,9 +1,9 @@
 # 老赵的Python代码碎片
 
-    赠予正在努力学习Python的同学！
+    **赠予正在努力学习Python的同学！**
 
 ## 加入我们
-- QQ群：        *200929675*
+- QQ群： **200929675**
 - 官方网站：   [http://pythonchallenge.club](http://pythonchallenge.club)
 - 老赵邮箱：   [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
 - 新浪微博：   @老赵爱编程
