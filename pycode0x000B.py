@@ -1,6 +1,12 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
 #
+# 文件: pycode0x000B.py
+# 功能: 返回公元年份的天干地支
+# 许可: General Public License
+# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+# 时间: 2016.06.06
+#
 # 天干地支產生於炎黄时期，簡稱“干支”。在中國古代歷法中，
 # 甲、乙、丙、丁、戊、己、庚、辛、壬、癸被稱為“十天干”，
 # 子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥被稱作“十二地支”。

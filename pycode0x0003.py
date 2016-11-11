@@ -1,7 +1,11 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
 #
-# 用字符c画边长为n的正方形和菱形
+# 文件: pycode0x0003.py
+# 功能: 用字符c画边长为n的正方形和菱形
+# 许可: General Public License
+# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+# 时间: 2016.04.04
 
 
 def square(c, n):

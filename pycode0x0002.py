@@ -1,10 +1,11 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
 #
-# filename: fib.py
-# version: 2016.04.04
-# author: Zhao Xin (赵鑫)
-# email: pythonchallenge@qq.com
+# 文件: pycode0x0002.py
+# 功能: 长度为n的斐波拉契数列生成器
+# 许可: General Public License
+# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+# 时间: 2016.04.04
 #
 # 斐波那契数列（Fibonacci sequence）又称黄金分割数列，因数学家列昂纳多·斐波那契
 # 以兔子繁殖为例子而引入，故又称为“兔子数列”，指的是这样一个数列：

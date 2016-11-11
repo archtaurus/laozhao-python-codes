@@ -1,7 +1,11 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
 #
-# 小学时代无聊时玩过的一个游戏(random.choice)
+# 文件: pycode0x0008.py
+# 功能: 小学时代无聊时玩过的一个游戏(random.choice)
+# 许可: General Public License
+# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+# 时间: 2016.06.06
 
 from random import choice
 

@@ -1,7 +1,11 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
 #
-# 求出两个三位数的乘积中最大的回文数(分片、max、生成器推导式)
+# 文件: pycode0x000A.py
+# 功能: 求出两个三位数的乘积中最大的回文数(分片、max、生成器推导式)
+# 许可: General Public License
+# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+# 时间: 2016.06.06
 
 
 def is_palnum(n):

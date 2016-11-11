@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-
+#
 # 文件: pycode0x000C.py
 # 功能: 求24点算式
 # 许可: General Public License
