@@ -2,13 +2,11 @@
 
     赠予正在努力学习Python的同学！
 
-    Python Challenge 爱编程，爱Python！友爱互助，分享快乐！
-
-    QQ群：        *200929675*
-    官方网站：    [http://pythonchallenge.club](http://pythonchallenge.club)
-    老赵邮箱：    [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
-
-新浪微博： @老赵爱编程
+## 加入我们
+QQ群：        *200929675*
+官方网站：   [http://pythonchallenge.club](http://pythonchallenge.club)
+老赵邮箱：   [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
+新浪微博：   @老赵爱编程
 
 目录：
 - [pycode0x0000.py : Hello, Python!](src/pycode0x0000.py)
