@@ -43,7 +43,7 @@ MAX_FPS = 30
 while True:
     CLOCK.tick(MAX_FPS)                 # 控制每秒最大帧数
     frame_image = CAMERA.get_image()    # 获取摄像头的图像
-    SCREEN.blit(frame_image, (0, 0))    # 获取摄像头的图像
+    SCREEN.blit(frame_image, (0, 0))    # 将图像贴到画面上
     pygame.display.flip()               # 更新窗口画面
     for event in pygame.event.get():
         if ((event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE) or
