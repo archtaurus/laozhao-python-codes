@@ -43,35 +43,38 @@ ENGLISH_NUMBER_NAMES = \
      '97': 'ninety-seven', '98': 'ninety-eight', '99': 'ninety-nine'}
 
 
-def num2eng(number, mag=None):
+def num2eng(number, numeral=None):
+    "返回整数number（小于1000兆）的英语形式"
     if isinstance(number, int):
         if number == 0:
             return 'zero'
-        elif number > 999999999999:
+        elif number > 999999999999999:  # 最大表示范围
             return str(number)
         else:
-            number = '%012d' % number
-            lst = [x for x in [num2eng(number[:-9], 'billion'),
+            number = '%015d' % number  # 转为15位字符串形式
+            lst = [x for x in [num2eng(number[:-12], 'trillion'),
+                               num2eng(number[-12:-9], 'billion'),
                                num2eng(number[-9:-6], 'million'),
                                num2eng(number[-6:-3], 'thousand'),
                                num2eng(number[-3:])] if x]
-            res = ' '.join(lst)
-            if res.startswith('and '):
-                res = res[4:]
-            return res
-    elif isinstance(number, str) and len(number) == 3:
+            result = ' '.join(lst)
+            if result.startswith('and '):
+                return result[4:]  # 去掉开头的"and "
+            else:
+                return result
+    # 处理三位数字的字符串
+    elif isinstance(number, str):
         if number == '000':
-            return None
+            return ''
         else:
             lst = []
             if not number.startswith('0'):
                 lst.append(ENGLISH_NUMBER_NAMES[number[0]] + ' hundred')
             if not number.endswith('00'):
                 lst.append('and ' + ENGLISH_NUMBER_NAMES[number[-2:]])
-            if mag:
-                lst.append(mag)
-            res = ' '.join(lst)
-            return res
+            if numeral:
+                lst.append(numeral)  # 添加数词
+            return ' '.join(lst)
 
 
 if __name__ == '__main__':
@@ -84,3 +87,23 @@ if __name__ == '__main__':
     assert(num2eng(7000) == 'seven thousand')
     assert(num2eng(8396) == 'eight thousand three hundred and ninety-six')
     assert(num2eng(10203) == 'ten thousand two hundred and three')
+
+# TODO:
+# quadrillion   1,000,000,000,000,000 千兆
+# quintillion   1,000,000,000,000,000,000 万兆
+# sextillion    1,000,000,000,000,000,000,000 ...
+# septillion
+# octillion
+# nonillion
+# decillion
+# undecillion
+# duodecillion
+# tredecillion
+# quattuordecillion
+# quindecillion
+# exdecillion
+# septendecillion
+# octodecillion
+# novemdecillion
+# vigintillion
+# centillion
