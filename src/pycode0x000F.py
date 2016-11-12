@@ -24,13 +24,13 @@ pygame.camera.init()
 pygame.display.set_caption("Pygame摄像头捕获演示程序")
 
 # 获取摄像头列表
-cameras = pygame.camera.list_cameras()
-if not cameras:
+CAMERAS = pygame.camera.list_cameras()
+if not CAMERAS:
     sys.stderr.write("Error: no camera found!\n")
     sys.exit(1)
 
 # 选择第一个摄像头，设定其分辨率，并启动它
-CAMERA = pygame.camera.Camera(cameras[0], (640, 480))
+CAMERA = pygame.camera.Camera(CAMERAS[0], (640, 480))
 CAMERA_RESOLUTION = CAMERA.get_size()
 CAMERA.start()
 
