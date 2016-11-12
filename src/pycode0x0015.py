@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 #
 # 文件: pycode0x0015.py
-# 功能: 将整数转成其英语形式
+# 功能: 将整数转成英语形式
 # 许可: General Public License
 # 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
 # 时间: 2016.02.11
