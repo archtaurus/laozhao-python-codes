@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 #
 # 文件: pycode0x0010.py
-# 功能: 打印输出Pygame的事件对象信息
+# 功能: 打印输出Pygame事件对象的信息
 # 许可: General Public License
 # 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
 # 时间: 2016.11.12

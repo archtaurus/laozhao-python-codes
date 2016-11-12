@@ -19,7 +19,7 @@
 - [pycode0x000D.py : 求Python之禅中字符的出现频率(百分率，不区分大小写字母)](src/pycode0x000D.py)
 - [pycode0x000E.py : 谁是罪犯？](src/pycode0x000E.py)
 - [pycode0x000F.py : Pygame摄像头捕获演示程序](src/pycode0x000F.py)
-- [pycode0x0010.py : 打印输出Pygame的事件对象信息](src/pycode0x0010.py)
+- [pycode0x0010.py : 打印输出Pygame事件对象的信息](src/pycode0x0010.py)
 
 ## 联络老赵
 - QQ群： 200929675
