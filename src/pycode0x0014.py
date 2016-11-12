@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 #
 # 文件: pycode0x0014.py
-# 功能: N-queens puzzle solver
+# 功能: 皇后问题 N-queens puzzle solver
 # 许可: General Public License
 # 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
 # 时间: 2016.03.03
