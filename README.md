@@ -1,6 +1,6 @@
 # 老赵的Python代码碎片
 
-    赠予正在努力学习Python的同学！
+    赠予正在努力学习Python的同学们！
 
 ## 目录 (注：以下源码均为 **Python2** 版本)
 - [pycode0x0000.py : Hello, Python!](src/pycode0x0000.py)
