@@ -26,6 +26,7 @@
 - [pycode0x0014.py : 皇后问题 N-queens puzzle solver](src/pycode0x0014.py)
 - [pycode0x0015.py : 将整数转成英语形式](src/pycode0x0015.py)
 - [pycode0x0016.py : 一个WSGI接口WEB服务器](src/pycode0x0016.py)
+- [pycode0x0017.py : 和电脑玩石头剪刀布](src/pycode0x0017.py)
 
 ## 联络老赵
 - QQ群： 200929675
