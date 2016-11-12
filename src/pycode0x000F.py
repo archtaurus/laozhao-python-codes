@@ -12,10 +12,11 @@ import sys
 import pygame
 import pygame.camera
 
-# Center the window is easy with single monitor
-os.environ['SDL_VIDEO_CENTERED'] = "1"
+# Centering the window is easy when you have only one single monitor.
 # But if you have two or more monitors, you can only set the absolute position.
-os.environ['SDL_VIDEO_WINDOW_POS'] = "1664, 300"
+# Choose one with your situation:
+os.environ['SDL_VIDEO_CENTERED'] = "1"
+# os.environ['SDL_VIDEO_WINDOW_POS'] = "1664, 300"
 
 # 初始化
 pygame.init()
