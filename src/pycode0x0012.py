@@ -22,7 +22,7 @@ def pop_min(input_list):
 def my_sorted(original_list):
     "return a sorted list"
     sorted_list = []
-    # 将最小的数逐一从原列表搬到新列表中
+    # 将最小的数逐一从原列表”搬到“新列表中
     while original_list:
         sorted_list.append(pop_min(original_list))
     return sorted_list
