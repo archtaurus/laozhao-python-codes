@@ -2,9 +2,7 @@
 
     赠予正在努力学习Python的同学！
 
-**注：目前的代码均为Python2的版本。**
-
-## 代码目录
+## 代码目录 (注：以下代码碎片均为 **Python2** 的版本。)
 - [pycode0x0000.py : Hello, Python!](src/pycode0x0000.py)
 - [pycode0x0001.py : 数字1、2、3、4能组成多少个无重复数字的三位数？](src/pycode0x0001.py)
 - [pycode0x0002.py : 斐波拉契数列生成器](src/pycode0x0002.py)
