@@ -2,6 +2,8 @@
 
 以下代码均是老赵日常学习Python之时所写，均为 **Python2** 版本（准确地说在2.7.12下均测试通过，在Python3环境可能需要稍作修改才能运行），另外还有一点不足之处，这些代码既没有按时间排序，也没有按难易度排序。
 
+代码中可能使用到的第三方的库：[PIL](http://pythonware.com/products/pil/)、[pygame](http://www.pygame.org/)。
+
     赠予正在努力学习Python的同学们！
 
 ## 源码目录 (src/)
