@@ -89,9 +89,13 @@ if __name__ == '__main__':
     assert(num2eng(10203) == 'ten thousand two hundred and three')
 
 # TODO:
-# quadrillion   1,000,000,000,000,000 千兆
-# quintillion   1,000,000,000,000,000,000 万兆
-# sextillion    1,000,000,000,000,000,000,000 ...
+# thousand              1,000
+# million               1,000,000
+# billion               1,000,000,000
+# trillion              1,000,000,000,000 兆
+# quadrillion           1,000,000,000,000,000 千兆
+# quintillion           1,000,000,000,000,000,000
+# sextillion            1,000,000,000,000,000,000,000
 # septillion
 # octillion
 # nonillion
@@ -101,9 +105,23 @@ if __name__ == '__main__':
 # tredecillion
 # quattuordecillion
 # quindecillion
-# exdecillion
-# septendecillion
+# sexdecillion exdecillion
+# septdecillion septendecillion
 # octodecillion
 # novemdecillion
 # vigintillion
+# unvigintillion
+# duovigintillion
+# trevigintillion
+# quattuorvigintillion
+# quinvigintillion
+# sexvigintillion
+# seprvigintillion
+# octovigintillion
+# novemvigintillion
+# trigintillion
+# untrigintillion
+# duotrigintillion
+# googol
+# googolplex
 # centillion
