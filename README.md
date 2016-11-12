@@ -25,6 +25,7 @@
 - [pycode0x0013.py : 将base64字符串转为文件对象](src/pycode0x0013.py)
 - [pycode0x0014.py : 皇后问题 N-queens puzzle solver](src/pycode0x0014.py)
 - [pycode0x0015.py : 将整数转成英语形式](src/pycode0x0015.py)
+- [pycode0x0016.py : 一个WSGI接口WEB服务器](src/pycode0x0016.py)
 
 ## 联络老赵
 - QQ群： 200929675
