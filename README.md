@@ -28,6 +28,8 @@
 - [pycode0x0016.py : 一个WSGI接口WEB服务器](src/pycode0x0016.py)
 - [pycode0x0017.py : 和电脑玩石头剪刀布](src/pycode0x0017.py)
 - [pycode0x0018.py : 用乌龟(Turtle)画方块套方块、圈圈套圈圈](src/pycode0x0018.py)
+- [pycode0x0019.py : 读心术（人类版）](src/pycode0x0019.py)
+- [pycode0x001A.py : 读心术（电脑版）](src/pycode0x001A.py)
 
 ## 联络老赵
 - QQ群： 200929675
