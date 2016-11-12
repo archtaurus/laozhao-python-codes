@@ -30,10 +30,11 @@ if not cameras:
 
 # 选择第一个摄像头，设定其分辨率，并启动它
 CAMERA = pygame.camera.Camera(cameras[0], (640, 480))
+CAMERA_RESOLUTION = CAMERA.get_size()
 CAMERA.start()
 
-# 设定其它对象、常量
-SCREEN = pygame.display.set_mode(CAMERA.get_size())
+# 设定Pygame基本的对象和常量
+SCREEN = pygame.display.set_mode(CAMERA_RESOLUTION)  # 画面，设定分辨率同摄像头
 CLOCK = pygame.time.Clock()
 MAX_FPS = 30
 
@@ -46,6 +47,6 @@ while True:
     for event in pygame.event.get():
         if ((event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE) or
                 event.type == pygame.QUIT):     # ESC或关闭窗口时...
-            CAMERA.stop()   # 关闭摄像头
-            pygame.quit()   # 结束pygame
-            sys.exit(0)     # 退出python
+            CAMERA.stop()       # 关闭摄像头
+            pygame.quit()       # 结束pygame
+            sys.exit(0)         # 退出python
