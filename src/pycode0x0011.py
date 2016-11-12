@@ -10,19 +10,19 @@
 from random import shuffle
 
 # 常量
-WELCOME_MESSAGE = '*** Simple Blackjack ***\n'
-PLAYER_DEAL = 'You are dealt a {}.'
-PLAYER_SCORE = 'Your score is: {}'
-YOUR_BUSTED = 'You busted. Better luck next time!'
-PLAYER_DECISION = 'Would you like to hit (H) or stand (S): '
-COMPUTER_DEAL = 'The computer is dealt a {}.'
-COMPUTER_SCORE = 'The computer\'s score is {}'
-COMPUTER_HIT = 'The computer\'s score is below 17 and takes another card.'
-COMPUTER_BUSTED = 'The computer busted!'
-COMPUTER_STANDS = 'The computer stands.'
-YOU_WIN = 'You win!'
-YOU_LOSE = 'You lose!'
-PLAY_AGAIN = 'Would you like to play again? (Y/N): '
+WELCOME_MESSAGE = '*** 和电脑玩 Blackjack ***\n'
+PLAYER_CARDS = '你手上的牌是 {}'
+PLAYER_SCORE = '你目前的点数是 {}'
+YOUR_BUSTED = '你爆了。祝下次好运！'
+PLAYER_DECISION = '你想再要一张牌 (H) 还是不要了 (S): '
+COMPUTER_CARDS = '电脑手上的牌是 {}'
+COMPUTER_SCORE = '电脑目前的点数是 {}'
+COMPUTER_HIT = '电脑的点数少于 17，再要一张。'
+COMPUTER_BUSTED = '电脑点数爆了！'
+COMPUTER_STANDS = '电脑不要牌了。'
+YOU_WIN = '你获胜了！'
+YOU_LOSE = '你失败了！'
+PLAY_AGAIN = '要再玩一把么？(Y/N): '
 
 
 def shuffled_cards():
@@ -42,43 +42,39 @@ def take_one_card(cards):
     return cards.pop()
 
 
-def count_score(player_cards):
+def count_score(cards_in_hand):
+    "计算点数"
     scores = [0]
-    for card in player_cards:       # for each card in hand
-        val = card[3:]                  # get point value str from card
+    for card in cards_in_hand:
+        val = card[3:]  # UTF-8的花色字符在字符串中占三个字节
         if val == 'A':
-            scores = [score + 1 for score in scores]            # for A = 1
-            scores += [score + 10 for score in scores]          # for A = 11
+            scores = [score + 1 for score in scores]            # A = 1
+            scores += [score + 10 for score in scores]          # A = 11
         elif val.isalpha():
-            scores = [score + 10 for score in scores]           # for JQK
+            scores = [score + 10 for score in scores]           # JQK
         else:
-            scores = [score + int(val) for score in scores]     # for 2~10
+            scores = [score + int(val) for score in scores]     # 2~10
         if min(scores) > 21:
-            return min(scores)                                  # busted
-    scores = [score for score in scores if score <= 21]         # valid scores
-    return max(scores)                                          # final score
+            return min(scores)                                  # 点数爆了
+    return max(score for score in scores if score <= 21)        # 返回点数
 
 
 def player_deal(cards):
-    player_hit = True  # player's decision
-    player_cards = []  # cards in player's hand
+    "玩家操作"
+    player_hit = True                       # 是否要牌的标志
+    player_cards = [take_one_card(cards)]   # 第一张牌
     while player_hit:
-
-        # take one card and put it into hand
-        card = take_one_card(cards)
-        print(PLAYER_DEAL.format(card))
-        player_cards.append(card)
-
-        # calculate score
+        # 拿一张牌
+        player_cards.append(take_one_card(cards))
+        print(PLAYER_CARDS.format(' '.join(player_cards)))
+        # 算点数
         player_score = count_score(player_cards)
         print(PLAYER_SCORE.format(player_score))
-
-        # player busted?
+        # 判断点数是否爆了
         if player_score > 21:
             print(YOUR_BUSTED)
             return player_score
-
-        # deal another card?
+        # 是否还要牌？
         while True:
             decision = raw_input(PLAYER_DECISION).lower()
             if decision == 'h':
@@ -86,24 +82,21 @@ def player_deal(cards):
             elif decision == 's':
                 return player_score
             else:
-                print('Invalid input!')
+                print('无效输入！')
 
 
 def computer_deal(cards):
+    "电脑操作"
     computer_hit = True
-    computer_cards = []
+    computer_cards = [take_one_card(cards)]
     while computer_hit:
-
-        # take one card
-        card = take_one_card(cards)
-        print(COMPUTER_DEAL.format(card))
-        computer_cards.append(card)
-
-        # calculate score
+        # 拿一张牌
+        computer_cards.append(take_one_card(cards))
+        print(COMPUTER_CARDS.format(' '.join(computer_cards)))
+        # 算点数
         computer_score = count_score(computer_cards)
         print(COMPUTER_SCORE.format(computer_score))
-
-        # need another card?
+        # 判断是否还要牌
         if computer_score > 21:
             print(COMPUTER_BUSTED)
             break
@@ -112,10 +105,12 @@ def computer_deal(cards):
             break
         else:
             print(COMPUTER_HIT)
+
     return computer_score
 
 
-def ask_play_again():
+def play_again():
+    "询问是否再玩一把"
     while True:
         decision = raw_input(PLAY_AGAIN).lower()
         if decision == 'y':
@@ -123,34 +118,29 @@ def ask_play_again():
         elif decision == 'n':
             return False
         else:
-            print('Invalid input!')
+            print('无效输入！')
 
 
 def play_balckjack():
-
     # 欢迎信息
     print(WELCOME_MESSAGE)
     # 洗牌
     cards = shuffled_cards()
-
     while True:
-
-        # player's round
+        # 玩家操作
         you_score = player_deal(cards)
         if you_score > 21:
             print(YOU_LOSE)
-
-        # computer's round
+        # 电脑操作
         else:
             computer_score = computer_deal(cards)
             if computer_score > 21 or you_score > computer_score:
                 print(YOU_WIN)
             else:
                 print(YOU_LOSE)
-
-        # play again?
-        if not ask_play_again():
-            print('Goodbye')
+        # 再玩一把？
+        if not play_again():
+            print('再见～～～')
             return
 
 
