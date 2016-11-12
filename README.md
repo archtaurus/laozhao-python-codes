@@ -1,8 +1,10 @@
 # 老赵的Python代码碎片
 
+以下源码是老赵日常学习Python时所写，均为 **Python2** 版本（在Python3环境可能要稍作修改），还有一点不足之处是，这些代码既没有按时间排序，也没有按难易度排序。
+
     赠予正在努力学习Python的同学们！
 
-## 目录 (注：以下源码均为 **Python2** 版本)
+## 目录
 - [pycode0x0000.py : Hello, Python!](src/pycode0x0000.py)
 - [pycode0x0001.py : 数字1、2、3、4能组成多少个无重复数字的三位数？](src/pycode0x0001.py)
 - [pycode0x0002.py : 斐波拉契数列生成器](src/pycode0x0002.py)
