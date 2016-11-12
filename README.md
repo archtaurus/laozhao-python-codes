@@ -20,6 +20,7 @@
 - [pycode0x000E.py : 谁是罪犯？](src/pycode0x000E.py)
 - [pycode0x000F.py : Pygame摄像头捕获演示程序](src/pycode0x000F.py)
 - [pycode0x0010.py : 打印输出Pygame事件对象的信息](src/pycode0x0010.py)
+- [pycode0x0011.py : 和电脑玩Blackjack](src/pycode0x0011.py)
 
 ## 联络老赵
 - QQ群： 200929675
