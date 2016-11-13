@@ -36,6 +36,7 @@
 - [pycode0x001A.py : 读心术（电脑版）](src/pycode0x001A.py)
 - [pycode0x001B-server.py : socket通讯小例子（服务器端）](src/pycode0x001B-server.py)
 - [pycode0x001B-clien.py : socket通讯小例子（客户端）](src/pycode0x001B-clien.py)
+- [pycode0x001C.py : Pygame方向键控制运动方向演示程序](src/pycode0x001C.py)
 
 ## 联络老赵
 - QQ群： 200929675
