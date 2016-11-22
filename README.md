@@ -44,6 +44,8 @@
 - [pycode0x001E.py : numpy.array demo](src/pycode0x001E.py)
 - [pycode0x001F.py : 用matplotlib画正弦余弦曲线](src/pycode0x001F.py)
 - [pycode0x0020.py : 用matplotlib画动态随机折线](src/pycode0x0020.py)
+- [pycode0x0021.py : 用matplotlib画动态正弦曲线](src/pycode0x0021.py)
+- [pycode0x0022.py : 用matplotlib画动态水面雨滴效果](src/pycode0x0022.py)
 
 联系老赵 CONTACT
 ---------------
