@@ -11,15 +11,16 @@
 from PIL import Image
 import numpy as np
 
-face = np.ndarray((5, 5), int, np.random.randint(0, 2, 25))
-face[:, 3] = face[:, 1]
-face[:, 4] = face[:, 0]
-print face  # ndarray
+face_data = np.ndarray((5, 5), int, np.random.randint(0, 2, 25))
+face_data[:, 3] = face_data[:, 1]  # 使脸左右对称
+face_data[:, 4] = face_data[:, 0]
+print face_data  # ndarray
 
-
-avatar = Image.new("RGB", (5, 5))
 colors = (176, 200, 101), (240, 240, 240)
-data = [colors[face[y][x]] for x in range(5) for y in range(5)]  # color list
-avatar.putdata(data)
-avatar = avatar.rotate(90).resize((200, 200))  # 旋转放大
+avatar = Image.new("RGB", (230, 230), colors[1])
+face = Image.new("RGB", (5, 5))
+data = [colors[face_data[y][x]] for x in range(5) for y in range(5)]
+face.putdata(data)
+face = face.rotate(90).resize((200, 200))  # 旋转放大
+avatar.paste(face, (15, 15))
 avatar.show()  # image
