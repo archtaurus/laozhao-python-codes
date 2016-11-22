@@ -8,6 +8,7 @@
 # 时间: 2016.04.05
 
 import os
+import sys
 import qrcode
 import argparse
 
@@ -16,13 +17,17 @@ parser.add_argument("filename", help=u"二维码输出PNG格式图片文件名(.
 parser.add_argument("string", help=u"二维码信息字符串")
 args = parser.parse_args()
 
-warning = "File '%s' already exists, overwrite (y/n) ? "
-
 if not args.filename.lower().endswith(".png"):
-    print u"图片文件名必须以.png结尾"
-else:
-    qrimage = qrcode.make(args.string)
-    if (not os.path.exists(args.filename) or
-            raw_input(warning % args.filename) == 'y'):
-        qrimage.save(args.filename)
-        print(u"信息'{}'已保存在{}".format(args.string, args.filename))
+    print u"图片文件名必须以.png结尾。"
+    sys.exit(1)
+
+args.filename = os.path.abspath(args.filename)
+if os.path.exists(args.filename):
+    print u"文件'{}'已存在，是否覆盖(y/n)？".format(args.filename),
+    if raw_input() != 'y':
+        print u"中止..."
+        sys.exit(1)
+
+qrimage = qrcode.make(args.string)
+qrimage.save(args.filename)
+print(u"信息'{}'已保存在二维码图片'{}'中。".format(args.string, args.filename))
