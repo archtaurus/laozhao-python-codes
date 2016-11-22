@@ -17,10 +17,11 @@ face_data[:, 4] = face_data[:, 0]
 print face_data  # ndarray
 
 colors = (176, 200, 101), (240, 240, 240)
-avatar = Image.new("RGB", (230, 230), colors[1])
-face = Image.new("RGB", (5, 5))
 data = [colors[face_data[y][x]] for x in range(5) for y in range(5)]
+face = Image.new("RGB", (5, 5))  # 鼻子眼睛嘴
 face.putdata(data)
 face = face.rotate(90).resize((200, 200))  # 旋转放大
+
+avatar = Image.new("RGB", (230, 230), colors[1])  # 为了留出15宽的边
 avatar.paste(face, (15, 15))
 avatar.show()  # image
