@@ -42,6 +42,8 @@
 - [pycode0x001C.py : Pygame方向键控制运动方向演示程序](src/pycode0x001C.py)
 - [pycode0x001D.py : 打印字符串在内存里的二进制形式](src/pycode0x001D.py)
 - [pycode0x001E.py : numpy.array demo](src/pycode0x001E.py)
+- [pycode0x001F.py : 用matplotlib画正弦余弦曲线](src/pycode0x001F.py)
+- [pycode0x0020.py : 用matplotlib画动态随机折线](src/pycode0x0020.py)
 
 联系老赵 CONTACT
 ---------------
