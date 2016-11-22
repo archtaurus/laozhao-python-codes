@@ -48,6 +48,7 @@
 - [pycode0x0022.py : 用matplotlib画动态水面雨滴效果](src/pycode0x0022.py)
 - [pycode0x0023.py : 命令行二维码图片生成程序](src/pycode0x0023.py)
 - [pycode0x0024.py : 命令行读取图片中二维码程序](src/pycode0x0024.py)
+- [pycode0x0025.py : 生成Github随机用户头像](src/pycode0x0025.py)
 
 联系老赵 CONTACT
 ---------------
