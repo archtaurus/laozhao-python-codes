@@ -3,7 +3,7 @@
 
 以下代码是老赵日常学习Python时所写，均为 **Python2** 版本（准确地说在2.7.12下测试通过，在Python3环境可能需要稍作修改才能运行），另外还有一点不足之处——这些代码没有排序！
 
-代码中可能使用到的第三方的库：[PIL](http://pythonware.com/products/pil/), [pygame](http://www.pygame.org/), [numpy](http://www.numpy.org/), [QRcode](http://www.qrcode.com/en/index.html)。
+代码中可能使用到的第三方的库：[PIL](http://pythonware.com/products/pil/), [pygame](http://www.pygame.org/), [numpy](http://www.numpy.org/), [QRcode](https://pypi.python.org/pypi/qrcode)。
 
     送给正在努力学习Python的同学们！
 
