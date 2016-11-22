@@ -7,7 +7,6 @@
 # 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
 # 时间: 2016.11.22
 
-
 from PIL import Image
 import numpy as np
 
