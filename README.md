@@ -41,6 +41,7 @@
 - [pycode0x001B-clien.py : socket通讯小例子（客户端）](src/pycode0x001B-clien.py)
 - [pycode0x001C.py : Pygame方向键控制运动方向演示程序](src/pycode0x001C.py)
 - [pycode0x001D.py : 打印字符串在内存里的二进制形式](src/pycode0x001D.py)
+- [pycode0x001E.py : numpy.array demo](src/pycode0x001E.py)
 
 联系老赵 CONTACT
 ---------------
