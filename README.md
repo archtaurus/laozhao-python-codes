@@ -3,7 +3,7 @@
 
 以下代码是老赵日常学习Python时所写，均为 **Python2** 版本（准确地说在2.7.12下测试通过，在Python3环境可能需要稍作修改才能运行），另外还有一点不足之处——这些代码没有排序！
 
-代码中可能使用到的第三方的库：[PIL](http://pythonware.com/products/pil/), [pygame](http://www.pygame.org/), [numpy](http://www.numpy.org/), [QRcode](https://pypi.python.org/pypi/qrcode)。
+代码中可能使用到的第三方的库：[PIL](http://pythonware.com/products/pil/), [pygame](http://www.pygame.org/), [numpy](http://www.numpy.org/), [QRcode](https://pypi.python.org/pypi/qrcode), [pyzbar](https://pypi.python.org/pypi/pyzbar), [requests](http://cn.python-requests.org/zh_CN/latest/)。
 
     送给正在努力学习Python的同学们！
 
@@ -47,6 +47,7 @@
 - [pycode0x0021.py : 用matplotlib画动态正弦曲线](src/pycode0x0021.py)
 - [pycode0x0022.py : 用matplotlib画动态水面雨滴效果](src/pycode0x0022.py)
 - [pycode0x0023.py : 命令行二维码图片生成程序](src/pycode0x0023.py)
+- [pycode0x0024.py : 命令行读取图片中二维码程序](src/pycode0x0024.py)
 
 联系老赵 CONTACT
 ---------------
