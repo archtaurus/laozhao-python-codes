@@ -9,7 +9,7 @@
 
 import os
 import sys
-import qrcode
+import qrcode  # see https://pypi.python.org/pypi/qrcode
 import argparse
 
 parser = argparse.ArgumentParser(description=u"二维码生成程序")
