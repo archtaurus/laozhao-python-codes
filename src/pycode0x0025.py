@@ -27,3 +27,4 @@ face = face.rotate(90).resize((200, 200))  # 旋转放大
 avatar = Image.new("RGB", (230, 230), colors[1])  # 为了留出15宽的边
 avatar.paste(face, (15, 15))
 avatar.show()  # image
+avatar.save("random_avatar.png")
