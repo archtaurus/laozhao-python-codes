@@ -15,7 +15,10 @@ face_data[:, 3] = face_data[:, 1]  # 使脸左右对称
 face_data[:, 4] = face_data[:, 0]
 print face_data  # ndarray
 
-colors = (176, 200, 101), (240, 240, 240)
+face_color = tuple(np.random.randint(64, 200, 3))
+print face_color
+background_color = 240, 240, 240
+colors = face_color, background_color
 data = [colors[face_data[y][x]] for x in range(5) for y in range(5)]
 face = Image.new("RGB", (5, 5))  # 鼻子眼睛嘴
 face.putdata(data)
