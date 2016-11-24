@@ -1,14 +1,15 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x001E.py
-# 功能: numpy.array demo
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.11.22
+"""老赵的Python代码碎片之一
+
+文件: pycode0x001E.py
+功能: numpy.array demo
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.11.22
+"""
 
 import numpy as np
-
 
 array_a = np.array([1, 2, 3, 4])        # 一维数组
 array_b = np.array([[1, 2, 3, 4],

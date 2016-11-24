@@ -50,6 +50,7 @@
 - [pycode0x0024.py : 命令行读取图片中二维码程序](src/pycode0x0024.py)
 - [pycode0x0025.py : 生成Github随机用户头像](src/pycode0x0025.py)
 - [pycode0x0026.py : 用matplotlib画双曲面](src/pycode0x0026.py)
+- [pycode0x0027.py : 求n以内的质数](src/pycode0x0027.py)
 
 联系老赵 CONTACT
 ---------------

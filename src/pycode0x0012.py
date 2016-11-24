@@ -1,15 +1,17 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x0012.py
-# 功能: 自定义my_sorted函数排序一个列表
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.03.05
+"""老赵的Python代码碎片之一
+
+文件: pycode0x0012.py
+功能: 自定义my_sorted函数排序一个列表
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.03.05
+"""
 
 
 def pop_min(input_list):
-    "pop the smallest number from the list"
+    """pop the smallest number from the list"""
     min_index, min_value = 0, input_list[0]
     # 找最小的数和它的索引
     for index, value in enumerate(input_list):
@@ -20,7 +22,7 @@ def pop_min(input_list):
 
 
 def my_sorted(original_list):
-    "return a sorted list"
+    """return a sorted list"""
     sorted_list = []
     # 将最小的数逐一从原列表”搬到“新列表中
     while original_list:

@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x000F.py
-# 功能: Pygame摄像头捕获演示程序
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.11.12
+"""老赵的Python代码碎片之一
+
+文件: pycode0x000F.py
+功能: Pygame摄像头捕获演示程序
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.11.12
+"""
 
 import os
 import sys

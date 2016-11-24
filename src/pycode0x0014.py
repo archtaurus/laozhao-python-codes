@@ -1,30 +1,30 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x0014.py
-# 功能: 皇后问题 N-queens puzzle solver
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.03.03
+"""老赵的Python代码碎片之一
+
+文件: pycode0x0014.py
+功能: 皇后问题 N-queens puzzle solver
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.03.03
+"""
 
 from itertools import permutations
 
 
 class Nqueens:
-    '''
+    """N-queens puzzle solver
 
-    N-queens puzzle solver
+    The N-queens puzzle is the problem of placing N chess
+    queens on a N x N chessboard so that no two queens
+    attack each other. Thus, a solution requires that no
+    two queens share the same row, column, or diagonal.
+    There are solutions exist for all natural numbers N
+    with the exception of 2 and 3.
+    Go http://en.wikipedia.org/wiki/Eight_queens_puzzle
+    for more information.
 
-        The N-queens puzzle is the problem of placing N chess
-        queens on a N x N chessboard so that no two queens
-        attack each other. Thus, a solution requires that no
-        two queens share the same row, column, or diagonal.
-        There are solutions exist for all natural numbers N
-        with the exception of 2 and 3.
-        Go http://en.wikipedia.org/wiki/Eight_queens_puzzle
-        for more information.
-
-        A solution sample of 92 solutions for 8 queens puzzle.
+    A solution sample of 92 solutions for 8 queens puzzle.
 
           Solution:     1
           ---------------
@@ -37,6 +37,7 @@ class Nqueens:
         1 . Q . . . . . .
         3 . . . Q . . . .
           ---------------
+
     Useage:
 
         Nqueens(n = 8) --> a 'n' queens puzzle solver object
@@ -58,7 +59,7 @@ class Nqueens:
             if (n == len(set(vec[i] + i for i in cols))
                   == len(set(vec[i] - i for i in cols))):
                 print vec
-    '''
+    """
 
     def __init__(self, n=8):
         '''return a N-queens puzzle object, n should be in range(4, 11).'''

@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x0019.py
-# 功能: 读心术（人类版）
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.02.27
+"""老赵的Python代码碎片之一
+
+文件: pycode0x0019.py
+功能: 读心术（人类版）
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.02.27
+"""
 
 # import randint for make_a_guess
 from random import randint as make_a_guess
@@ -20,8 +22,8 @@ PLAYER_WON = "You've guessed my number in %d times!"
 
 
 def guess_game():
-    '''Player guess a random number in range 0~100
-    '''
+    """Player guess a random number in range 0~100
+    """
     # define the variables
     guess = None
     user_input = ''

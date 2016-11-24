@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x001C.py
-# 功能: Pygame方向键控制运动方向演示程序
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2013.08.31
+"""老赵的Python代码碎片之一
+
+文件: pycode0x001C.py
+功能: Pygame方向键控制运动方向演示程序
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2013.08.31
+"""
 
 import sys
 import pygame

@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x0016.py
-# 功能: 一个WSGI接口WEB服务器
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.02.11
+"""老赵的Python代码碎片之一
+
+文件: pycode0x0016.py
+功能: 一个WSGI接口WEB服务器
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.02.11
+"""
 
 from wsgiref.simple_server import make_server
 
@@ -14,6 +16,7 @@ HTTP_PORT = 8000
 
 def application(environ, start_response):
     """HTTP入口WSGI处理函数
+
     environ：一个包含所有HTTP请求信息的dict对象；
     start_response：一个发送HTTP响应的函数。
     """

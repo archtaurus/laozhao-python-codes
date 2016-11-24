@@ -1,13 +1,15 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x0015.py
-# 功能: 将整数转成英语形式
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.02.11
+"""老赵的Python代码碎片之一
 
-# 基本数字的英文字典
+文件: pycode0x0015.py
+功能: 将整数转成英语形式
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.02.11
+"""
+
+"""基本数字的英文字典"""
 ENGLISH_NUMBER_NAMES = \
     {'0': 'zero', '1': 'one', '2': 'two', '3': 'three', '4': 'four',
      '5': 'five', '6': 'six', '7': 'seven', '8': 'eight', '9': 'nine',
@@ -41,10 +43,11 @@ ENGLISH_NUMBER_NAMES = \
      '91': 'ninety-one', '92': 'ninety-two', '93': 'ninety-three',
      '94': 'ninety-four', '95': 'ninety-five', '96': 'ninety-six',
      '97': 'ninety-seven', '98': 'ninety-eight', '99': 'ninety-nine'}
+"""基本数字的英文字典"""
 
 
 def num2eng(number, numeral=None):
-    "返回整数number（小于1000兆）的英语形式"
+    """返回整数number（小于1000兆）的英语形式"""
     if isinstance(number, int):
         if number == 0:
             return 'zero'

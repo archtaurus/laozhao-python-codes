@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x0017.py
-# 功能: 和电脑玩石头剪刀布
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.04.05
+"""老赵的Python代码碎片之一
+
+文件: pycode0x0017.py
+功能: 和电脑玩石头剪刀布
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.04.05
+"""
 
 from random import choice
 

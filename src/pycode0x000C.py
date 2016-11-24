@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x000C.py
-# 功能: 求24点算式
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.09.29
+"""老赵的Python代码碎片之一
+
+文件: pycode0x000C.py
+功能: 求24点算式
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.09.29
+"""
 
 # 算式模式参考自：http://www.cnblogs.com/grenet/archive/2013/03/17/2964455.html
 # 该作者制作了24点算式模式的列表，列出有解的独立模式50种（取值范围1~10，编号1~50）

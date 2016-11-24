@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x001A.py
-# 功能: 读心术（电脑版）
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.02.27
+"""老赵的Python代码碎片之一
+
+文件: pycode0x001A.py
+功能: 读心术（电脑版）
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.02.27
+"""
 
 # define the constants
 COMPUTER_TRY = "The computer guesses: {0}"
@@ -18,8 +20,8 @@ BINGO = 'c'
 
 
 def guess_game():
-    '''Computer guess a random number you choosed in range 0~100
-    '''
+    """Computer guess a random number you choosed in range 0~100
+    """
     # define the variables
     min_guess = 0
     max_guess = 100

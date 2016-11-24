@@ -1,12 +1,14 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x001B-clien.py
-# 功能: socket通讯小例子（客户端）
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2013.08.31
-#
+"""老赵的Python代码碎片之一
+
+文件: pycode0x001B-clien.py
+功能: socket通讯小例子（客户端）
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2013.08.31
+"""
+
 import socket
 
 HOST = '127.0.0.1'

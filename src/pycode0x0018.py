@@ -1,11 +1,13 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-#
-# 文件: pycode0x0018.py
-# 功能: 用乌龟(Turtle)画方块套方块、圈圈套圈圈
-# 许可: General Public License
-# 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
-# 时间: 2016.03.12
+"""老赵的Python代码碎片之一
+
+文件: pycode0x0018.py
+功能: 用乌龟(Turtle)画方块套方块、圈圈套圈圈
+许可: General Public License
+作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
+时间: 2016.03.12
+"""
 
 # involved moudules
 import turtle
@@ -19,10 +21,8 @@ BORDER_COLOR = 'black'
 
 
 def turtle_go():
-    '''Main function
-
-    Return: None
-    '''
+    """Main function
+    """
 
     # ask for options
     print ('***Turtle Graphics Shape Generator***\n'
@@ -44,23 +44,23 @@ def turtle_go():
 
 
 def random_color():
-    '''Generate a random color code in hex style RGB format
+    """Generate a random color code in hex style RGB format
 
     Returns:
         str: a random color
-    '''
+    """
     return '#%06X' % randint(0, 0xFFFFFF)
 
 
 def draw_squares_round_and_round(number, width):
-    '''Draw squares round and round
+    """Draw squares round and round
 
     Args:
         number (int): number of squares to draw
         width (int): square width
 
     Returns: None
-    '''
+    """
 
     # preparing
     turtle.speed(SPEED)
@@ -83,14 +83,14 @@ def draw_squares_round_and_round(number, width):
 
 
 def draw_circles_ring_upon_ring(number, radius):
-    '''Draw circles ring upon ring
+    """Draw circles ring upon ring
 
     Args:
         number (int): number of circles to draw
         radius (int): circle radius
 
     Returns: None
-    '''
+    """
 
     # preparing
     turtle.speed(SPEED)
