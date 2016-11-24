@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 """老赵的Python代码碎片之一
 
-文件: pycode0x0026.py
+文件: pycode0x0027.py
 功能: 求n以内的质数
 许可: General Public License
 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
