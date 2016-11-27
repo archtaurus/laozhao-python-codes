@@ -51,6 +51,7 @@
 - [pycode0x0025.py : 生成Github随机用户头像](src/pycode0x0025.py)
 - [pycode0x0026.py : 用matplotlib画双曲面](src/pycode0x0026.py)
 - [pycode0x0027.py : 求n以内的质数](src/pycode0x0027.py)
+- [pycode0x0028.py : 模拟打字机输出字符串](src/pycode0x0028.py)
 
 联系老赵 CONTACT
 ---------------
