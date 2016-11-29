@@ -52,6 +52,7 @@
 - [pycode0x0026.py : 用matplotlib画双曲面](src/pycode0x0026.py)
 - [pycode0x0027.py : 从zlib压缩的二进制文件中读取100万以内的质数数据](src/pycode0x0027.py)
 - [pycode0x0028.py : 模拟打字机输出字符串](src/pycode0x0028.py)
+- [pycode0x0029.py : 下载某网站整站视频的脚本](src/pycode0x0029.py)
 
 联系老赵 CONTACT
 ---------------
