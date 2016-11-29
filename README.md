@@ -1,9 +1,9 @@
 老赵的Python代码碎片
 ===================
 
-以下代码是老赵日常学习Python时所写，均为 **Python2** 版本（准确地说在2.7.12下测试通过，在Python3环境可能需要稍作修改才能运行），另外还有一点不足之处——这些代码没有排序！
+以下代码是老赵日常学习Python时所写，在Python2.7.12下测试通过。在Python3环境可能需要稍作修改才能运行，另外还有一点不足之处——这些代码没有任何逻辑顺序可言！
 
-代码中可能使用到的第三方的库：[PIL](http://pythonware.com/products/pil/), [pygame](http://www.pygame.org/), [numpy](http://www.numpy.org/), [QRcode](https://pypi.python.org/pypi/qrcode), [pyzbar](https://pypi.python.org/pypi/pyzbar), [requests](http://cn.python-requests.org/zh_CN/latest/), [bs4](https://www.crummy.com/software/BeautifulSoup/)。
+代码可能使用到的第三方的库：[PIL](http://pythonware.com/products/pil/), [pygame](http://www.pygame.org/), [numpy](http://www.numpy.org/), [QRcode](https://pypi.python.org/pypi/qrcode), [pyzbar](https://pypi.python.org/pypi/pyzbar), [requests](http://cn.python-requests.org/zh_CN/latest/), [bs4](https://www.crummy.com/software/BeautifulSoup/)。
 
     送给正在努力学习Python的同学们！
 
