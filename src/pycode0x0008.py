@@ -15,5 +15,7 @@ names = ["张三", "李四", "王五"]
 places = ["学校", "厕所", "食堂", "游乐场"]
 actions = ["游泳", "嗯嗯", "吃饭", "读书", "睡觉"]
 
-oddity = "{}在{}里{}。".format(choice(names), choice(places), choice(actions))
+oddity = "{people}在{place}里{action}。".format(people=choice(names),
+                                             place=choice(places),
+                                             action=choice(actions))
 print oddity
