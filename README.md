@@ -55,6 +55,7 @@
 - [pycode0x0029.py : 下载某网站整站视频的脚本](src/pycode0x0029.py)
 - [pycode0x002A.py : 两个简单的质数生成器](src/pycode0x002A.py)
 - [pycode0x002B.py : 用pygame和HTTPServer将摄像头图像串流到http页面上](src/pycode0x002B.py)
+- [pycode0x002C.py : 猜动物](src/pycode0x002C.py)
 
 联系老赵 CONTACT
 ---------------
