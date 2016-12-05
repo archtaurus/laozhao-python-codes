@@ -3,7 +3,7 @@
 """老赵的Python代码碎片之一
 
 文件: pycode0x002D.py
-功能: Pygame绘制三个弹跳的球
+功能: Pygame绘制三个弹跳的Sprite球
 许可: General Public License
 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
 时间: 2011.03.08

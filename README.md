@@ -56,7 +56,7 @@
 - [pycode0x002A.py : 两个简单的质数生成器](src/pycode0x002A.py)
 - [pycode0x002B.py : 用Pygame和HTTPServer将摄像头图像串流到http页面上](src/pycode0x002B.py)
 - [pycode0x002C.py : 猜动物](src/pycode0x002C.py)
-- [pycode0x002D.py : Pygame绘制三个弹跳的球](src/pycode0x002D.py)
+- [pycode0x002D.py : Pygame绘制三个弹跳的Sprite球](src/pycode0x002D.py)
 
 联系老赵 CONTACT
 ---------------
