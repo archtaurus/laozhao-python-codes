@@ -60,10 +60,10 @@
 联系老赵 CONTACT
 ---------------
 
-- QQ群： 200929675
-- 官方网站： [http://pythonchallenge.club](http://pythonchallenge.club)
-- 个人网站： [http://nixoahz.com](http://nixoahz.com)
-- 优酷频道： [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
-- 老赵QQ: 7176466
-- 老赵邮箱： [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
-- 新浪微博： [@老赵爱编程](http://www.weibo.com/archtaurus)
+- ＱＱ：   7176466
+- Ｑ群：   200929675
+- 邮箱：   [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
+- 优酷：   [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
+- 微博：   [@老赵爱编程](http://www.weibo.com/archtaurus)
+- 官网：   [http://pythonchallenge.club](http://pythonchallenge.club)
+- 个网：   [http://nixoahz.com](http://nixoahz.com)
