@@ -9,6 +9,7 @@
 时间: 2016.03.23
 """
 
+
 class Node:
     """Question Node"""
 
