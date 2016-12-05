@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-"""用pygame和HTTPServer将摄像头图像串流到http页面上
+"""老赵的Python代码碎片之一
 
 文件: pycode0x002B.py
 功能: 用pygame和HTTPServer将摄像头图像串流到http页面上

@@ -54,7 +54,7 @@
 - [pycode0x0028.py : 模拟打字机输出字符串](src/pycode0x0028.py)
 - [pycode0x0029.py : 下载某网站整站视频的脚本](src/pycode0x0029.py)
 - [pycode0x002A.py : 两个简单的质数生成器](src/pycode0x002A.py)
-- [pycode0x002B.py : 用pygame和HTTPServer将摄像头图像串流到http页面上](src/pycode0x002B.py)
+- [pycode0x002B.py : 用Pygame和HTTPServer将摄像头图像串流到http页面上](src/pycode0x002B.py)
 - [pycode0x002C.py : 猜动物](src/pycode0x002C.py)
 
 联系老赵 CONTACT
@@ -63,7 +63,7 @@
 - ＱＱ：   7176466
 - Ｑ群：   200929675
 - 邮箱：   [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
-- 优酷：   [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
 - 微博：   [@老赵爱编程](http://www.weibo.com/archtaurus)
+- 优酷：   [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
 - 官网：   [http://pythonchallenge.club](http://pythonchallenge.club)
 - 个网：   [http://nixoahz.com](http://nixoahz.com)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-"""求n以内的质数
+"""老赵的Python代码碎片之一
 
 文件: pycode0x002A.py
 功能: 两个简单的质数生成器

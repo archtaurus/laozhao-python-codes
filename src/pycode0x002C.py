@@ -1,6 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding:utf-8 -*-
-"""猜动物
+"""老赵的Python代码碎片之一
 
 文件: pycode0x002C.py
 功能: 猜动物
