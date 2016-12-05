@@ -65,6 +65,7 @@
 - ＱＱ：   7176466
 - Ｑ群：   200929675
 - 邮箱：   [pythonchallenge@qq.com](mailto:pythonchallenge@qq.com)
+- 微信：   archtaurus
 - 微博：   [@老赵爱编程](http://www.weibo.com/archtaurus)
 - 优酷：   [http://i.youku.com/imzhao](http://i.youku.com/imzhao)
 - 官网：   [http://pythonchallenge.club](http://pythonchallenge.club)
