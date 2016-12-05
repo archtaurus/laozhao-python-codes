@@ -57,6 +57,7 @@
 - [pycode0x002B.py : 用Pygame和HTTPServer将摄像头图像串流到http页面上](src/pycode0x002B.py)
 - [pycode0x002C.py : 猜动物](src/pycode0x002C.py)
 - [pycode0x002D.py : Pygame绘制三个弹跳的Sprite球](src/pycode0x002D.py)
+- [pycode0x002E.py : 一个简单的Tkinter文本编辑器](src/pycode0x002E.py)
 
 联系老赵 CONTACT
 ---------------
