@@ -58,6 +58,7 @@
 - [pycode0x002C.py : 猜动物](src/pycode0x002C.py)
 - [pycode0x002D.py : Pygame绘制三个弹跳的Sprite球](src/pycode0x002D.py)
 - [pycode0x002E.py : 一个简单的Tkinter文本编辑器](src/pycode0x002E.py)
+- [pycode0x002F.py : Pygame的生命游戏](src/pycode0x002F.py)
 
 联系老赵 CONTACT
 ---------------
