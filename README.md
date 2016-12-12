@@ -60,6 +60,7 @@
 - [pycode0x002E.py : 一个简单的Tkinter文本编辑器](src/pycode0x002E.py)
 - [pycode0x002F.py : Pygame的生命游戏](src/pycode0x002F.py)
 - [pycode0x0030.py : 小故事网故事采集程序](src/pycode0x0030.py)
+- [pycode0x0031.py : 城市空气质量数据抓取函数](src/pycode0x0031.py)
 
 联系老赵 CONTACT
 ---------------
