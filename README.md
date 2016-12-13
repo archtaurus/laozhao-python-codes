@@ -62,6 +62,7 @@
 - [pycode0x0030.py : 小故事网故事采集程序](src/pycode0x0030.py)
 - [pycode0x0031.py : 城市空气质量数据抓取函数](src/pycode0x0031.py)
 - [pycode0x0032.py : 当日bing.com背景获取程序](src/pycode0x0032.py)
+- [pycode0x0033.py : wxPython-demo-文字编辑器](src/pycode0x0033.py)
 
 联系老赵 CONTACT
 ---------------
