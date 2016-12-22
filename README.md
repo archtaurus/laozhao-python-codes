@@ -63,6 +63,7 @@
 - [pycode0x0031.py : 城市空气质量数据抓取函数](src/pycode0x0031.py)
 - [pycode0x0032.py : 当日bing.com背景获取程序](src/pycode0x0032.py)
 - [pycode0x0033.py : wxPython-demo-文字编辑器](src/pycode0x0033.py)
+- [pycode0x0034.py : 百度文字识别API简单演示](src/pycode0x0034.py)
 
 联系老赵 CONTACT
 ---------------

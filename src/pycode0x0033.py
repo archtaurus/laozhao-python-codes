@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 """老赵的Python代码碎片之一
 
-文件: pycode0x0032.py
+文件: pycode0x0033.py
 功能: wxPython-demo-文字编辑器
 许可: General Public License
 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
