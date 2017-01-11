@@ -67,6 +67,7 @@
 - [pycode0x0035.py : 拟人化的函数式多线程池例子](src/pycode0x0035.py)
 - [pycode0x0036.py : 解析url](src/pycode0x0036.py)
 - [pycode0x0037.py : PyOpenGL茶壶DEMO](src/pycode0x0037.py)
+- [pycode0x0038.py : 一个天气API的调用函数](src/pycode0x0038.py)
 
 联系老赵 CONTACT
 ---------------
