@@ -28,7 +28,7 @@ print "array_a.shape ->", array_a.shape
 print "array_b.shape ->", array_b.shape
 """(4,) (3, 4)"""
 
-# 改变数组的位数
+# 改变数组的维数
 array_a.shape = 2, -1
 print "array_a.shape ->", array_a.shape
 print "array_a ->"

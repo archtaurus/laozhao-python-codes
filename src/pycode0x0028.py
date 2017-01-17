@@ -32,4 +32,3 @@ def typewriter(string, interval=0.1):
 
 if __name__ == '__main__':
     typewriter(u'Hello, World! 你好，世界！')
-

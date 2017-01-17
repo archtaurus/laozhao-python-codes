@@ -12,7 +12,7 @@
 from PIL import Image
 import numpy as np
 
-face_data = np.ndarray((5, 5), int, np.random.randint(0, 2, 25))
+face_data = np.random.randint(0, 2, (5, 5))
 face_data[:, 3] = face_data[:, 1]  # 使脸左右对称
 face_data[:, 4] = face_data[:, 0]
 print face_data  # ndarray
