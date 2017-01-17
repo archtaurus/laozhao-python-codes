@@ -1,7 +1,6 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # -*- coding:utf-8 -*-
 """老赵的Python代码碎片之一
-
 文件: pycode0x002F.py
 功能: Pygame的生命游戏
 许可: General Public License
@@ -31,15 +30,15 @@ while True:
     """放置下一代生命的空间"""
     for x in xrange(COLS):
         for y in xrange(ROWS):
-            neighbors = sum(lifes[i][j] if ((0 <= i < ROWS) and (0 <= j < COLS)) else 0
-                            for i in (y - 1, y, y + 1) for j in (x - 1, x, x + 1)) - lifes[y][x]
-            if (lifes[y][x] and neighbors == 2) or neighbors == 3:
+            neighbors = sum(lifes[i][j] for i in (y - 1, y, y + 1) for j in (x - 1, x, x + 1)
+                            if (0 <= i < ROWS) and (0 <= j < COLS)) - lifes[y][x]
+            if (lifes[y][x] + neighbors == 3) or neighbors == 3:
                 space[y][x] = CELL
                 screen.fill(BODY, (SIZE * x, SIZE * y, SIZE, SIZE))
                 pygame.draw.rect(screen, SKIN, (SIZE * x, SIZE * y, SIZE + 1, SIZE + 1), 1)
     lifes = copy.deepcopy(space)
     pygame.display.flip()
-    pygame.time.wait(1000/SPEED)
+    pygame.time.wait(1000 / SPEED)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()

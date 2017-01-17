@@ -10,8 +10,7 @@
 """
 
 string = 'I love coding!\0'
-seperator = ""
-print seperator.join(bin(ord(c))[2:].zfill(8) for c in string)
+print ''.join('{:08b}'.format(ord(c)) for c in string)
 
 # OUTPUT:
 # 010010010010000001101100011011110111011001100101001000000110001101101111011001000110100101101110011001110010000100000000
