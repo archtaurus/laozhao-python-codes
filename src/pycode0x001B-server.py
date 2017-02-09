@@ -8,7 +8,6 @@
 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
 时间: 2013.08.31
 """
-
 import sys
 import socket
 
@@ -35,8 +34,8 @@ while True:
                     conn.send('Good bye!')
                     conn.close()
                     sys.exit(0)
-                    break
-                conn.send(data.upper()[::-1])   # 将数据后的数据发送回客户端
+                else:
+                    conn.send(data.upper()[::-1])   # 将处理后的数据发送回客户端
         except socket.timeout:
             print 'Time out...'
             conn.send('Time out!')

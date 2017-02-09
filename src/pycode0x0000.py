@@ -11,7 +11,7 @@
 
 
 def main():
-    print ("Hello, Python!")
+    print ('Hello, Python!')
 
 
 if __name__ == '__main__':

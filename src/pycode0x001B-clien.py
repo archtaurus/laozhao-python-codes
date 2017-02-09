@@ -8,7 +8,6 @@
 作者: Zhao Xin (赵鑫) <pythonchallenge@qq.com>
 时间: 2013.08.31
 """
-
 import socket
 
 HOST = '127.0.0.1'
