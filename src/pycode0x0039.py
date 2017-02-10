@@ -12,8 +12,8 @@
 import os
 
 DATA_FILENAME = 'sl.fasta'
-GROUP_SIZE = 200
 OUTPUT_PATH = 'output'
+GROUP_SIZE = 200
 
 file_counter = 0
 data_counter = 0
