@@ -69,6 +69,7 @@
 - [pycode0x0037.py : PyOpenGL茶壶DEMO](src/pycode0x0037.py)
 - [pycode0x0038.py : 一个天气API的调用函数](src/pycode0x0038.py)
 - [pycode0x0039.py : 分组分割数据文件](src/pycode0x0039.py)
+- [pycode0x003A.py : 下载百度文库ppt文档内容的图片](src/pycode0x003A.py)
 
 联系老赵 CONTACT
 ---------------
