@@ -38,7 +38,7 @@
 - [pycode0x0019.py : 读心术（人类版）](src/pycode0x0019.py)
 - [pycode0x001A.py : 读心术（电脑版）](src/pycode0x001A.py)
 - [pycode0x001B-server.py : socket通讯小例子（服务器端）](src/pycode0x001B-server.py)
-- [pycode0x001B-clien.py : socket通讯小例子（客户端）](src/pycode0x001B-clien.py)
+- [pycode0x001B-client.py : socket通讯小例子（客户端）](src/pycode0x001B-client.py)
 - [pycode0x001C.py : Pygame方向键控制运动方向演示程序](src/pycode0x001C.py)
 - [pycode0x001D.py : 打印字符串在内存里的二进制形式](src/pycode0x001D.py)
 - [pycode0x001E.py : numpy.array demo](src/pycode0x001E.py)
