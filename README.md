@@ -73,6 +73,7 @@
 - [pycode0x003B_server.py : socket聊天程序服务端](src/pycode0x003B_server.py)
 - [pycode0x003B_client.py : socket聊天程序客户端](src/pycode0x003B_client.py)
 - [pycode0x003C.py : 将学生按成绩分组](src/pycode0x003C.py)
+- [pycode0x003D.py : Tkinter密码输入demo](src/pycode0x003D.py)
 
 联系老赵 CONTACT
 ---------------
