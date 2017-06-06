@@ -72,6 +72,7 @@
 - [pycode0x003A.py : 下载百度文库ppt文档内容的图片](src/pycode0x003A.py)
 - [pycode0x003B_server.py : socket聊天程序服务端](src/pycode0x003B_server.py)
 - [pycode0x003B_client.py : socket聊天程序客户端](src/pycode0x003B_client.py)
+- [pycode0x003C.py : 将学生按成绩分组](src/pycode0x003C.py)
 
 联系老赵 CONTACT
 ---------------

@@ -34,17 +34,14 @@ def update_panel(pan, data=''):
     curses.doupdate()
 
 
-while True:
+user_name = ''
+while not re.match('^[A-z]{3,15}$', user_name):
+    print 'User name should be 3~15 long and alpha characters only.'
     user_name = raw_input('Your name: ')
-    if not re.match('^[A-z]{3,15}$', user_name):
-        print 'User name should be 3~15 long and alpha characters only.'
-    else:
-        break
 
 try:
     # socket initializing
     client_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    # client_sock.settimeout(3)
     client_sock.connect(('127.0.0.1', 5460))
     client_sock.send(user_name)
 
@@ -52,10 +49,9 @@ try:
     stdscr = curses.initscr()
     curses.noecho()
     curses.cbreak()
-    stdscr.keypad(1)
-    rows, cols = stdscr.getmaxyx()
 
     # create windows
+    rows, cols = stdscr.getmaxyx()
     chat_win = curses.newwin(rows - 3, cols, 0, 0)
     send_win = curses.newwin(3, cols, rows - 3, 0)
 
